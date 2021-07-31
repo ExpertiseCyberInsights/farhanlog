@@ -21,16 +21,17 @@ $$ |  $$\ $$ |  $$ |$$ |  $$ |$$   ____|$$ |      $$ |  $$\ $$ |$$  __$$ |$$ |  
                                 ========created By Farhan==============""")
 
 
-print("\033[1;32;40m ╔════════════════════════════════════════\n")                                       |
-print("\033[1;32;40m  |Author: Mohd. Farhan|\n")
-print("\033[1;32;40m  |                                           |\n")
-print("\033[1;32;40m  |Github:  https://github.com/ExpertiseCyberInsights|\n")
-print("\033[1;32;40m  |                                           |\n")
-print("\033[1;32;40m  |Instgram: cyber.insghts01|\n")
-print("\033[1;32;40m  |                                           |\n")
-print("\033[1;32;40m ╚═════════════════════════════════════════\n") 
-  
+correctpass = "farhan"
 
-
-
-
+while True:
+    
+    a = input("Eneter the password: --> ")
+    if a == correctpass:
+        print("You have logged into secret account")
+        ex = input("to exit press 'e' to continue press 'y'")
+        if ex  == 'e':
+            break
+        else:
+            continue
+    else:
+        print("The password is wrong try again")
