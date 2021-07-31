@@ -18,9 +18,7 @@ $$ |  $$\ $$ |  $$ |$$ |  $$ |$$   ____|$$ |      $$ |  $$\ $$ |$$  __$$ |$$ |  
           $$\   $$ |                                                                
           \$$$$$$  |                                                                
            \______/                                                                 
-                                ========created By Farhan==============""")
-
-
+                                 ========created By Farhan==============""")
 correctpass = "farhan"
 
 while True:
@@ -35,3 +33,5 @@ while True:
             continue
     else:
         print("The password is wrong try again")
+
+
